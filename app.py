@@ -24,7 +24,7 @@ st.title("Image Segmentation Techniques")
 
 selectbox = st.sidebar.selectbox(
     "Which operation do you want to perform?",
-    ("Using Color Masking", "Using Otsu Thresholding", "Using Morphological Operations", "Using Grabcut Algorithm")
+    ( "Using Grabcut Algorithm", "Using Color Masking", "Using Otsu Thresholding", "Using Morphological Operations")
 )
 
 
